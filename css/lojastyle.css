@@ -1,0 +1,238 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	background-color: #1e1e1e;
+}
+
+.corpo {
+	background-image: url('../images/BGK3.png');
+	background-size: cover;
+	background-position: center;
+	width: 1908px;
+	height: 1080px;
+}
+
+.centro {
+	width: 1200px;
+	height: 100%;
+
+}
+
+.base-loja {
+	width: 100%;
+	height: 1200px;
+	display: inline-block;
+	margin: 3% 5%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.apoiadoresmes{
+	width: 478px;
+	height: 317px;
+	background-color: rgba(0,0,0,0.5);
+	display: inline-block;
+	margin-top: calc(-100% - 36px);
+	margin-right: -46%;
+	float: right;
+}
+
+.apoiadoresever{
+	width: 478px;
+	height: 317px;
+	background-color: rgba(0,0,0,0.5);
+	display: inline-block;
+	margin-top: calc(-75% - 3px);
+	margin-right: -46%;
+	float: right;
+}
+/* PRODUTOS */
+
+.produtos, .produtos2, .produtos3, .produtos4{
+	padding-left: 90px;
+	padding-right: 90px;
+	font-family: monospace;
+	margin-left: -2%;
+}
+/* PRODUTO 1 */
+.produto1{
+	width: 229px;
+	height: 250px;
+	display: flex;
+	margin-top: 50px;
+	margin-left: 20px;
+	background-color: #1c1c1c;
+}
+
+.mb1{
+	width: 70px;
+	height: 70px;
+	margin-left: 80px;
+	margin-top: 15px;
+}
+
+.produto1 > h3{
+	font-size: 18px;
+	color: #32ff17;
+	margin-top: 45%;
+	margin-left: -30%;
+}
+
+.produto1 > h2{
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-top: 65%;
+	margin-left: -38%;
+	text-align: center;
+}
+
+.produto1 > button {
+	width: 150px;
+	height: 42px;
+	margin-top: 85%;
+	margin-left: -61%;
+	color: rgb(0,0,0);
+	background-color: #ff7112;
+	border: 1px solid #d55e33;
+	transition: all 0.3s ease 0s;
+	outline: none;
+	cursor: pointer;
+	font-size: 28px;
+	font-family: monospace;
+}
+
+.produto1 > button:hover{
+	background-color: rgba(0,0,0,0.1);
+	color: #d55e33;
+	text-shadow: 0 1px 10px rgba(240, 63, 50,1);
+	transform: rotateY(0deg) scale(1.2);
+	transition: all 0.3s ease 0s;
+	box-shadow: 1px 1px 10px #ff2a00;
+}
+
+.produto1 button:active{
+	outline: none;
+	border: none;
+	transform: rotateY(0deg) scale(0.9);
+}
+/* PRODUTO 2 */
+
+/*.rainbow-text{
+	font-size: 30px;
+	display: inline-block;
+	margin-left: 70%;
+*/
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    display: inline-block;
+	margin-left: 41%;
+    font-family: monospace;
+    letter-spacing: 4px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+/*.rainbow-text{
+	font-size: 30px;
+	display: inline-block;
+	margin-left: 70%;
+*/
+.rainbow2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 2px;
+	margin-left: 7%;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+.rainbow_text_animated2 {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+/*.rainbow-text{
+	font-size: 30px;
+	display: inline-block;
+	margin-left: 70%;
+*/
+.rainbow3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 2px;
+	margin-left: 5%;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+.rainbow_text_animated3 {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar{
+	width: 12px;
+	background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+	background:#ef7008;
+	border-radius: 6px; 
+}
+
+/* SCROLL BAR */
+
